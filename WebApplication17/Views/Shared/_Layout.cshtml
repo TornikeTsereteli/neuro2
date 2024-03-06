@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - neurobalance.com</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/neurobalance.com.styles.css" asp-append-version="true" />
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
+                    <img src="~/imgs/LOGO1.png" height="70px" width="90px" />
+                    <span style="color: blue;">ნეირო</span><span style="color: red;">ბალანს</span><span
+                        style="color: red">ირების</span>&nbsp;&nbsp;<span style="color: green;">ცენტრი</span>
+                </a>
+
+
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1 justify-content-center">
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index"
+                                style="font-size:large">ჩვენს შესახებ</a>
+                            <ul class="dropdown">
+                                <li><a href="#">სერვისები</a></li>
+                                <li><a href="#">გუნდი</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Privacy"
+                                style="font-size:large" large>ფონდი</a>
+                            <ul class="dropdown">
+                                <li><a href="#">დონორები</a></li>
+                                <li><a href="#">გამჭირვალობა</a></li>
+                                <li><a href="#">ფილანტრობი</a></li>
+
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Privacy"
+                                style="font-size:large">სიახლეები</a>
+                            <ul class="dropdown">
+                                <li><a href="#">რუბრიკა</a></li>
+                                <li><a href="#">აქტივობები</a></li>
+                                <li><a href="#">რუბრიკა</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Privacy"
+                                style="font-size:large">კონტაქტი</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="donation-img">
+                    <img src="~/imgs/donate2.png">
+                </div>
+
+
+
+
+                <div class="navbar-text ml-auto">
+
+
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">შესვლა</a>
+                        </li>
+
+                        <li class="navbar-nav">
+                            <a class="nav-lang" href="#">GE</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    <div class="container">
+
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+
+<div  class="container-xxl">
+
+    <img alt="main-img" class="main-img" src="~/imgs/kids.jpg">
+
+</div>
+
+
+
+
+    <footer>
+        <div class="container-ft">
+            <div class="row">
+                <div class="col-md-3">
+
+                    <ul class="footer-links">
+                        <li><a href="#">Link 1</a></li>
+                        <li><a href="#">Link 2</a></li>
+                        <li><a href="#">Link 3</a></li>
+
+                    </ul>
+                </div>
+                <div class="col-md-3">
+
+                    <ul class="footer-links">
+                        <li><a href="#">Link 1</a></li>
+                        <li><a href="#">Link 2</a></li>
+                        <li><a href="#">Link 3</a></li>
+
+                    </ul>
+                </div>
+                <div class="col-md-3">
+
+                    <ul class="footer-links">
+                        <li><a href="#">Link 1</a></li>
+                        <li><a href="#">Link 2</a></li>
+                        <li><a href="#">Link 3</a></li>
+
+                    </ul>
+                </div>
+                <div class="col-md-3">
+
+                    <ul class="footer-links">
+                        <li><a href="#">Link 1</a></li>
+                        <li><a href="#">Link 2</a></li>
+                        <li><a href="#">Link 3</a></li>
+
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+
+</html>
