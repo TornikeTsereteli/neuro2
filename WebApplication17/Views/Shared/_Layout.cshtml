@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/neurobalance.com.styles.css" asp-append-version="true" />
 
+
 </head>
 
 <body>
@@ -17,16 +18,15 @@
             <div class="container-fluid">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
                     <img src="~/imgs/LOGO1.png" height="70px" width="90px" />
-                    <span style="color: blue;">ნეირო</span><span style="color: red;">ბალანს</span><span
-                        style="color: red">ირების</span>&nbsp;&nbsp;<span style="color: green;">ცენტრი</span>
+                    <span style="color: rgb(0, 0, 0); color: rgb(52, 48, 48);">ნეირო</span><span style="color: rgb(0, 0, 0); color: rgb(52, 48, 48);">ბალანს</span><span style="color: rgb(0, 0, 0); color: rgb(52, 48, 48);">ირების</span>&nbsp;&nbsp;<span style="color: rgb(0, 0, 0); color: rgb(52, 48, 48);">ცენტრი</span>
                 </a>
 
 
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1 justify-content-center">
                         <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index"
-                                style="font-size:large">ჩვენს შესახებ</a>
+                            <a class="nav-link" asp-area="" asp-controller="About" asp-action="Services"
+                               style="font-size:large">ჩვენს შესახებ</a>
                             <ul class="dropdown">
                                 <li><a href="#">სერვისები</a></li>
                                 <li><a href="#">გუნდი</a></li>
@@ -35,9 +35,9 @@
 
                         <li class="nav-item">
                             <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Privacy"
-                                style="font-size:large" large>ფონდი</a>
+                               style="font-size:large" large>ფონდი</a>
                             <ul class="dropdown">
-                                <li><a href="#">დონორები</a></li>
+                                <li><a href="https://localhost:7142/Contact">დონორები</a></li>
                                 <li><a href="#">გამჭირვალობა</a></li>
                                 <li><a href="#">ფილანტრობი</a></li>
 
@@ -45,16 +45,16 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Privacy"
-                                style="font-size:large">სიახლეები</a>
+                               style="font-size:large">სიახლეები</a>
                             <ul class="dropdown">
-                                <li><a href="#">რუბრიკა</a></li>
+                                <li><a  asp-controller="About" asp-action="Services">რუბრიკა</a></li>
                                 <li><a href="#">აქტივობები</a></li>
                                 <li><a href="#">რუბრიკა</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Privacy"
-                                style="font-size:large">კონტაქტი</a>
+                               style="font-size:large">კონტაქტი</a>
                         </li>
                     </ul>
                 </div>
@@ -92,59 +92,59 @@
     </div>
 
 
-<div  class="container-xxl">
-
-    <img alt="main-img" class="main-img" src="~/imgs/kids.jpg">
-
-</div>
 
 
 
 
-    <footer>
-        <div class="container-ft">
-            <div class="row">
-                <div class="col-md-3">
 
-                    <ul class="footer-links">
-                        <li><a href="#">Link 1</a></li>
-                        <li><a href="#">Link 2</a></li>
-                        <li><a href="#">Link 3</a></li>
+    <div class="container-ft" style="border-radius:5px;">
 
-                    </ul>
-                </div>
-                <div class="col-md-3">
+        <div class=" row">
+            <div class="col-md-3">
 
-                    <ul class="footer-links">
-                        <li><a href="#">Link 1</a></li>
-                        <li><a href="#">Link 2</a></li>
-                        <li><a href="#">Link 3</a></li>
+                <ul class="footer-links">
+                    <li><a href="#">გამჭვირვალობა</a></li>
+                    <li><a href="#">აქტივობები</a></li>
+                    <li><a href="#">ფილანტრობი</a></li>
 
-                    </ul>
-                </div>
-                <div class="col-md-3">
-
-                    <ul class="footer-links">
-                        <li><a href="#">Link 1</a></li>
-                        <li><a href="#">Link 2</a></li>
-                        <li><a href="#">Link 3</a></li>
-
-                    </ul>
-                </div>
-                <div class="col-md-3">
-
-                    <ul class="footer-links">
-                        <li><a href="#">Link 1</a></li>
-                        <li><a href="#">Link 2</a></li>
-                        <li><a href="#">Link 3</a></li>
-
-                    </ul>
-                </div>
-
+                </ul>
             </div>
-        </div>
+            <div class="col-md-3">
 
-    </footer>
+                <ul class="footer-links">
+                    <li><a href="#">რუბრიკა</a></li>
+                    <li><a href="#">ფონდი</a></li>
+                    <li><a href="#">სიახლეები</a></li>
+
+                </ul>
+            </div>
+            <div class="col-md-3">
+
+                <ul class="footer-links">
+                    <li><a href="#">დონორები</a></li>
+                    <li><a href="#">სერვისები</a></li>
+                    <li><a href="#">გუნდი</a></li>
+
+                </ul>
+            </div>
+            <div class="col-md-3">
+
+                <ul class="footer-links">
+                    <li><a href="#">ჩვენს შესახებ</a></li>
+                    <li><a href="#">კონტაქტი</a></li>
+                    <li><a href="#">Link 3</a></li>
+
+                </ul>
+            </div>
+
+            <div class="donation-ft">
+                <img src="~/imgs/donate3.png">
+            </div>
+
+        </div>
+    </div>
+
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
