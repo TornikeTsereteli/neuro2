@@ -18,7 +18,7 @@ public class AuthorizationContextDapper
     public (Customer,Exception) GetPlayer(string userName, string password)
     {
         // using IDbConnection dbConnection = new SqlConnection(_configuration.GetConnectionString("AuthorizeConnection"));
-        int x = 5;
+        int x = 8;
         return (null, null);
 
     }
