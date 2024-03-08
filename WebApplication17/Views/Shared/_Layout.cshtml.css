@@ -249,3 +249,44 @@ button.accept-policy {
 
 /*სერვისები */
 
+@media screen and (max-width: 768px) {
+   
+    .navbar-nav .nav-link {
+        padding: 5px;
+        font-size: 0.8rem;
+    }
+
+    .navbar-brand img {
+        height: 50px;
+        width: auto;
+    }
+
+   
+    .dropdown {
+        left: auto;
+        right: 0;
+        top: 100%;
+    }
+
+   
+    .footer-links {
+        margin-right: 20px;
+    }
+}
+@media screen and (max-width: 576px) {
+   
+    .navbar-nav .nav-link {
+        font-size: 0.7rem;
+    }
+
+    
+    .navbar-brand img {
+        height: 40px;
+        width: auto;
+    }
+
+    
+    .footer-links {
+        margin-right: 10px;
+    }
+}

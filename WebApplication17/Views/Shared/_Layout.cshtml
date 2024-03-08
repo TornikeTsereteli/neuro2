@@ -14,7 +14,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3" style="display:block; width: 100%;">
             <div class="container-fluid">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
                     <img src="~/imgs/LOGO1.png" height="70px" width="90px" />
@@ -25,7 +25,7 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1 justify-content-center">
                         <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-controller="About" asp-action="Services"
+                            <a class="nav-link" asp-area="" asp-controller="About" asp-action="Team"
                                style="font-size:large">ჩვენს შესახებ</a>
                             <ul class="dropdown">
                                 <li><a href="#">სერვისები</a></li>
@@ -47,9 +47,9 @@
                             <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Privacy"
                                style="font-size:large">სიახლეები</a>
                             <ul class="dropdown">
-                                <li><a  asp-controller="About" asp-action="Services">რუბრიკა</a></li>
-                                <li><a href="#">აქტივობები</a></li>
                                 <li><a href="#">რუბრიკა</a></li>
+                                <li><a href="#">აქტივობები</a></li>
+                                
                             </ul>
                         </li>
                         <li class="nav-item">
