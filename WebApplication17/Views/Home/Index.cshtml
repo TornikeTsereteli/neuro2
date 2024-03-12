@@ -12,208 +12,262 @@
 
 <head>
     <style>
+        
+
         body {
             margin: 0;
+            margin-right: 0 !important;
             padding: 0;
+            margin-right: 2rem;
         }
 
-       
 
-        .containerX {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            margin: 0;
-            padding: 0;
-        }
-
-        .servisebiContainer,
-        .fondiContainer,
-        .siaxleebiContainer,
-        .shesaxebContainer {
-            width: 90%; 
-            max-width: 1200px;
-            margin: 5rem auto;
-            height: auto; 
-            border-radius: 2rem;
+        #banerisContainer {
             position: relative;
-            font-size:1.3rem;
-            font-weight:500;
-            
-            place-content: center;
-        }
-
-        .servisebiContent {
-            margin-top: 8rem;
-            font-weight: 300;
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr 1fr;
-            justify-content: center !important;
-            justify-items: center !important;
+            height: 50vh;
             width: 100%;
-            height: 20rem;
-            font-size: 1.6rem;
-            row-gap: 2rem;
-            place-content: center;
-            
+            font-size: 2rem;
+            text-align: center;
+            align-content: center;
+            padding: 0 !important;
+            z-index: -1;
         }
 
-            .servisebiContent img {
-                width: fit-content;
-                height: 15rem;
-                padding: 20px;
-            }
+        #banerisContainer img {
+            width: inherit;
+            height: inherit;
+            object-fit: cover;
+            opacity: 1;
+        }
 
-            .servisebiContent p {
-                display: inherit;
-                margin-top: -2rem;
-            }
-
-            .servisebiContent div:hover {
-                cursor: pointer;
-            }
-
-           
-
+        #banerisContainer P {
+            position: absolute;
+            top: -4rem;
+            left: 3%;
+            padding-top: 10rem;
+            color: white;
+            width: 5rem;
+        }
        
+
+        #ragac {
+            height: 100vh;
+        }
+
+        #counter {
+            height: 30vh;
+            width: 80%;
+            margin: auto;
+            background-color: #FEF9E7;
+            margin-top: -3rem;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            justify-content: space-around;
+            gap: 5px;
+            text-align: center;
+            padding-top: 1.5rem;
+        }
+
+    
+
 
         .fancy {
+            margin-top: 5rem;
             line-height: 0.5;
             text-align: center;
         }
 
-            .fancy span {
-                display: inline-block;
-                position: relative;
+        .fancy span {
+            display: inline-block;
+            position: relative;
             }
 
-                .fancy span:before,
-                .fancy span:after {
-                    content: "";
-                    position: absolute;
-                    height: 5px;
-                    border-bottom: 1px solid rgb(0, 0, 0);
-                    top: 0;
-                    width: 30rem;
-                }
+        .fancy span:before,
+        .fancy span:after {
+            content: "";
+            position: absolute;
+            height: 5px;
+            border-bottom: 1px solid rgb(0, 0, 0);
+            top: 0;
+            width: 30rem;
+            }
 
-                .fancy span:before {
-                    right: 100%;
-                    margin-right: 15px;
-                }
+        .fancy span:before {
+            right: 100%;
+            margin-right: 15px;
+            }
 
-                .fancy span:after {
-                    left: 100%;
-                    margin-left: 15px;
-                }
+        .fancy span:after {
+            left: 100%;
+            margin-left: 15px;
+            }
 
-        .fondiContent {
-            margin-top: 8rem;
-            font-weight: 300;
+
+        
+        #servisebisScroll {
             display: grid;
-            grid-template-columns: 1fr 1fr 1fr 1fr;
-            justify-content: center !important;
-            justify-items: center !important;
-            width: 100%;
-            height: 20rem;
-            font-size: 1.6rem;
-            row-gap: 2rem;
-            place-content: center;
-            
+            grid-template-columns:  repeat(12, 1fr);
+            height: 50vh;
+            width: 80vw;
+            background-color: #FEF9E7;
+            margin: auto;
+            margin-top: 4rem;
+            overflow: hidden;
+            touch-action: none
         }
 
-            .fondiContent img {
-                width: fit-content;
-                height: 15rem;
-                padding: 20px;
-            }
+        .scrollElement {
+            display: grid;
+            grid-template-rows:2fr 1fr;
+            backgrounf-color: white;
+            width: 30vw;
+            height: 80%;
+            justify-items: center;
+            align-items: center;
+            text-align: center;
+            font-size: 1.3rem;
+            margin: auto 0;
+        }
 
-            .fondiContent p {
-                display: inherit;
-                margin-top: -2rem;
-            }
+        .scrollElement img {
+            width: 6rem;
+            height: 6rem;
+            oject-fit: cover;
+        }
 
-            .fondiContent div:hover {
-                cursor: pointer;
-            }
+        .scrollElement img:hover,
+        .scrollElement p:hover {
+            opacity: 0.8;
+            cursor:pointer;
+        }
 
-      
+
+
     </style>
 
 </head>
 
 <body>
-    <div class="container containerX">
-        <div class="content-f">
-            <h1>Text</h1>
-            <p>TEXT</p>
-            <button>Click Me</button>
+    <div id="banerisContainer">
+        <img src="/imgs/kids-med.jpg"/>
+
+        <p>
+            ერთად დავეხმაროთ ბავშვებს
+        </p>
+    </div>
+
+
+    <div id="counter">
+        <p>დონორების რაოდენობა</p>
+        <p>მიღებული დონაცია</p>
+        <p>წარმატებული ოპერაცია</p>
+
+        <p>37</p>
+        <p>3650$</p>
+        <p>4</p>
+
+    </div>
+
+
+    <p class="fancy"><span>ს ე რ ვ ი ს ე ბ ი</span></p>
+
+     <div id="servisebi">
+           
+         <div id="servisebisScroll">
+           
+            <div class="scrollElement">
+                <img src="/imgs/donate.png"/>
+                <p>დიაგნოსტირება</p>
+            </div>
+            <div class="scrollElement">
+                <img src="/imgs/donate.png"/>
+                <p>ქცევითი თერაპია</p>
+            </div>
+            <div class="scrollElement">
+                <img src="/imgs/donate.png"/>
+                <p>მეტყველების თერაპია</p>
+            </div>
+            <div class="scrollElement">
+                <img src="/imgs/donate.png" />
+                <p>ადრეული განვითარების პროგრამა</p>
+            </div>
+            <div class="scrollElement">
+                <img src="/imgs/donate.png"/>
+                <p>რეაბილიტაცია აბილიტაციის პროგრამა</p>
+            </div>
+            <div class="scrollElement">
+                <img src="/imgs/donate.png"/>
+                <p>სენსორული თერაპია</p>
+            </div>
+            <div class="scrollElement">
+                <img src="/imgs/donate.png"/>
+                <p>არტ თერაპია</p>
+            </div>
+            <div class="scrollElement">
+                <img src="/imgs/donate.png"/>
+                <p>მერიის პროგრამა</p>
+            </div>
+            <div class="scrollElement">
+                <img src="/imgs/donate.png"/>
+                <p>ფიზიკური თერაპია</p>
+            </div>
+            <div class="scrollElement">
+                <img src="/imgs/donate.png"/>
+                <p>ოკუპაციური თერაპია</p>
+            </div>
+            <div class="scrollElement">
+                <img src="/imgs/donate.png"/>
+                <p>რეაბილიტაციის მობილური ჯგუფი</p>
+            </div>
+            <div class="scrollElement">
+                <img src="/imgs/donate.png" />
+                <p>მშობელთა გაძლიერების საათი</p>
+            </div>
+
         </div>
+
+
     </div>
 
 
-    <div style="background-image: url('/imgs/kids-med.jpg');
-            background-repeat: no-repeat;" class="baneri"></div>
+    <div id="ragac">
 
-    <div class="servisebiContainer">
-        <p class="fancy"><span>ს ე რ ვ ი ს ე ბ ი</span></p>
 
-        <div class="servisebiContent">
-            <img src="~/imgs/donate2.png" style="border-radius: 50%;" />
-            <img src="~/imgs/donate2.png" style="border-radius: 50%;" />
-            <img src="~/imgs/donate2.png" style="border-radius: 50%;" />
-            <img />
-
-            <div>
-                დიაგნოსტირება<br />
-                მოკლე ტექსტი
-            </div>
-            <div>
-                ქცევითი თერაპია<br />
-                მოკლე ტექსტი
-            </div>
-            <div>
-                სენსორული თერაპია<br />
-                მოკლე ტექსტი
-            </div>
-
-        </div>
     </div>
 
-    <div class="fondiContainer">
-        <p class="fancy"><span>ფ ო ნ დ ი</span></p>
-        <div class="fondiContent">
-            <img src="~/imgs/test.jpg" style="border-radius: 50%;" />
-            <img src="~/imgs/test.jpg" style="border-radius: 50%;" />
-            <img src="~/imgs/test.jpg" style="border-radius: 50%;" />
-            <img />
 
-            <div>
-                დიაგნოსტირება<br />
-                მოკლე ტექსტი
-            </div>
-            <div>
-                ქცევითი თერაპია<br />
-                მოკლე ტექსტი
-            </div>
-            <div>
-                სენსორული თერაპია<br />
-                მოკლე ტექსტი
-            </div>
 
-        </div>
-    </div>
-
-    <div class="siaxleebiContainer">
-        <p class="fancy"><span>ს ი ა ხ ლ ე ე ბ ი</span></p>
-        <!-- Additional content goes here -->
-    </div>
-
-    <div class="shesaxebContainer">
-        <p class="fancy"><span>ჩვენს შესახებ</span></p>
-        <!-- Additional content goes here -->
-    </div>
 </body>
 
+<script>
+
+    let mouseDown = false;
+    let startX, scrollLeft;
+    const slider = document.getElementById("servisebisScroll")
+
+    const startDragging = (e) => {
+        mouseDown = true;
+        startX = e.pageX - slider.offsetLeft;
+        scrollLeft = slider.scrollLeft;
+    }
+
+    const stopDragging = (e) => {
+        mouseDown = false;
+    }
+
+    const move = (e) => {
+        e.preventDefault();
+        if (!mouseDown) { return; }
+        const x = e.pageX - slider.offsetLeft;
+        const scroll = x - startX;
+        slider.scrollLeft = scrollLeft - scroll;
+    }
+
+    // Add the event listeners
+    slider.addEventListener('mousemove', move, false);
+    slider.addEventListener('mousedown', startDragging, false);
+    slider.addEventListener('mouseup', stopDragging, false);
+    slider.addEventListener('mouseleave', stopDragging, false);
+
+</script>
 </html>
