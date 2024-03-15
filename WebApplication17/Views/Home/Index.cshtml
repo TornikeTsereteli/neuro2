@@ -12,14 +12,17 @@
 
 <head>
     <style>
-        
+
 
         body {
             margin: 0;
             margin-right: 0 !important;
             padding: 0;
             margin-right: 2rem;
+            overflow-x: hidden;
         }
+
+        /* baneris stilebi */
 
 
         #banerisContainer {
@@ -33,26 +36,29 @@
             z-index: -1;
         }
 
-        #banerisContainer img {
-            width: inherit;
-            height: inherit;
-            object-fit: cover;
-            opacity: 1;
-        }
+            #banerisContainer img {
+                width: inherit;
+                height: inherit;
+                object-fit: cover;
+                opacity: 1;
+            }
 
-        #banerisContainer P {
-            position: absolute;
-            top: -4rem;
-            left: 3%;
-            padding-top: 10rem;
-            color: white;
-            width: 5rem;
-        }
-       
+            #banerisContainer P {
+                position: absolute;
+                top: -4rem;
+                left: 3%;
+                padding-top: 10rem;
+                color: white;
+                width: 5rem;
+            }
+
 
         #ragac {
-            height: 100vh;
+            height: 100vh
         }
+
+
+        /* counteris seqcia */
 
         #counter {
             height: 30vh;
@@ -66,10 +72,12 @@
             gap: 5px;
             text-align: center;
             padding-top: 1.5rem;
+            border-radius: 1rem;
+            font-size: 1.6rem;
         }
 
-    
 
+        /* servisebis seqcia */
 
         .fancy {
             margin-top: 5rem;
@@ -77,71 +85,163 @@
             text-align: center;
         }
 
-        .fancy span {
-            display: inline-block;
-            position: relative;
+            .fancy span {
+                display: inline-block;
+                position: relative;
             }
 
-        .fancy span:before,
-        .fancy span:after {
-            content: "";
-            position: absolute;
-            height: 5px;
-            border-bottom: 1px solid rgb(0, 0, 0);
-            top: 0;
-            width: 30rem;
-            }
+                .fancy span:before,
+                .fancy span:after {
+                    content: "";
+                    position: absolute;
+                    height: 5px;
+                    border-bottom: 1px solid rgb(0, 0, 0);
+                    top: 0;
+                    width: 20%;
+                }
 
-        .fancy span:before {
-            right: 100%;
-            margin-right: 15px;
-            }
+                .fancy span:before {
+                    right: 100%;
+                    margin-right: 15px;
+                }
 
-        .fancy span:after {
-            left: 100%;
-            margin-left: 15px;
-            }
+                .fancy span:after {
+                    left: 100%;
+                    margin-left: 15px;
+                }
 
 
-        
+
         #servisebisScroll {
             display: grid;
-            grid-template-columns:  repeat(12, 1fr);
+            grid-template-columns: repeat(6, 1fr);
             height: 50vh;
             width: 80vw;
             background-color: #FEF9E7;
             margin: auto;
             margin-top: 4rem;
             overflow: hidden;
-            touch-action: none
+            touch-action: none;
+            border-radius: 1.6rem;
+            gap: 1.5rem;
         }
+
+            #servisebisScroll:first-child {
+                padding-left: 1.5rem;
+            }
+
+            #servisebisScroll:last-child {
+                padding-right: 1.5rem;
+            }
 
         .scrollElement {
             display: grid;
-            grid-template-rows:2fr 1fr;
-            backgrounf-color: white;
-            width: 30vw;
+            grid-template-rows: 2fr 1fr;
+            border-radius: 3rem;
+            width: 25vw;
             height: 80%;
             justify-items: center;
             align-items: center;
             text-align: center;
             font-size: 1.3rem;
             margin: auto 0;
+            transition: all 0.4s ease-in;
         }
 
-        .scrollElement img {
-            width: 6rem;
-            height: 6rem;
-            oject-fit: cover;
+            .scrollElement:hover {
+                background-color: #EBF5FB;
+                width: 26vw;
+                height: 85%;
+                box-shadow: 4px 4px #A9CCE3;
+            }
+
+            .scrollElement img {
+                width: 6rem;
+                height: 6rem;
+                oject-fit: cover;
+            }
+
+                .scrollElement img:hover,
+                .scrollElement p:hover {
+                    opacity: 0.8;
+                    cursor: pointer;
+                }
+
+        #servisebisScroll:hover {
+            cursor: grab;
         }
 
-        .scrollElement img:hover,
-        .scrollElement p:hover {
-            opacity: 0.8;
-            cursor:pointer;
+
+
+        /* gundis seqcia */
+
+        #chveniGundi {
+            display: grid;
+            grid-template-columns: 30% 70%;
+            margin-top: 10rem;
+            width: 80vw;
+            height: 70vh;
+            background-color: #FEF9E7;
+            margin: auto;
+            margin-top: 10rem;
+            position: relative;
+        }
+
+            #chveniGundi img {
+                position: absolute;
+                width: inherit;
+                height: inherit;
+                left: -3rem;
+                top: 2rem;
+                height: 80%;
+                border-radius: 3rem;
+            }
+
+        .gundiAside {
+            display: flex;
+            width: 30%;
+            height: 100%
+        }
+
+        .gundiText h4 {
+            height: 50%;
+            width: 80%;
+            overflow: auto;
+            margin-left: 5rem;
         }
 
 
+
+        .gundiHeader {
+            display: block;
+            font-size: 2rem;
+            padding-top: 2rem;
+            text-align: center;
+        }
+
+        .gundiText button {
+            position: absolute;
+            bottom: 2rem;
+            right: 2rem;
+            background-color: rgb(214, 247, 237, 0.3);
+            border: none;
+            border-radius: 1rem;
+            width: 10rem;
+            height: 3rem;
+            transition: all 0.5s ease-in;
+            overflow: hidden;
+        }
+
+            .gundiText button:hover {
+                background-color: rgb(214, 247, 237, 1);
+                width: 12rem;
+                height: 3.3rem;
+                padding-right: 2rem;
+            }
+
+        .gundiText:hover {
+            cursor: default;
+        }
 
     </style>
 
@@ -149,7 +249,7 @@
 
 <body>
     <div id="banerisContainer">
-        <img src="/imgs/kids-med.jpg"/>
+        <img src="/imgs/kids-med.jpg" />
 
         <p>
             ერთად დავეხმაროთ ბავშვებს
@@ -171,20 +271,20 @@
 
     <p class="fancy"><span>ს ე რ ვ ი ს ე ბ ი</span></p>
 
-     <div id="servisebi">
-           
-         <div id="servisebisScroll">
-           
+    <div id="servisebi">
+
+        <div id="servisebisScroll">
+
             <div class="scrollElement">
-                <img src="/imgs/donate.png"/>
+                <img src="/imgs/donate.png" />
                 <p>დიაგნოსტირება</p>
             </div>
             <div class="scrollElement">
-                <img src="/imgs/donate.png"/>
+                <img src="/imgs/donate.png" />
                 <p>ქცევითი თერაპია</p>
             </div>
             <div class="scrollElement">
-                <img src="/imgs/donate.png"/>
+                <img src="/imgs/donate.png" />
                 <p>მეტყველების თერაპია</p>
             </div>
             <div class="scrollElement">
@@ -192,36 +292,12 @@
                 <p>ადრეული განვითარების პროგრამა</p>
             </div>
             <div class="scrollElement">
-                <img src="/imgs/donate.png"/>
+                <img src="/imgs/donate.png" />
                 <p>რეაბილიტაცია აბილიტაციის პროგრამა</p>
             </div>
             <div class="scrollElement">
-                <img src="/imgs/donate.png"/>
-                <p>სენსორული თერაპია</p>
-            </div>
-            <div class="scrollElement">
-                <img src="/imgs/donate.png"/>
-                <p>არტ თერაპია</p>
-            </div>
-            <div class="scrollElement">
-                <img src="/imgs/donate.png"/>
-                <p>მერიის პროგრამა</p>
-            </div>
-            <div class="scrollElement">
-                <img src="/imgs/donate.png"/>
-                <p>ფიზიკური თერაპია</p>
-            </div>
-            <div class="scrollElement">
-                <img src="/imgs/donate.png"/>
-                <p>ოკუპაციური თერაპია</p>
-            </div>
-            <div class="scrollElement">
-                <img src="/imgs/donate.png"/>
-                <p>რეაბილიტაციის მობილური ჯგუფი</p>
-            </div>
-            <div class="scrollElement">
                 <img src="/imgs/donate.png" />
-                <p>მშობელთა გაძლიერების საათი</p>
+                <p>დეტალურად</p>
             </div>
 
         </div>
@@ -230,9 +306,25 @@
     </div>
 
 
+
+    <div id="chveniGundi">
+        <aside class="gundiAside">
+            <img src="/imgs/LOGO1.png" />
+        </aside>
+
+
+        <div class="gundiText">
+            <p class="gundiHeader">ჩვენი გუნდი</p>
+
+            <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h4>
+
+            <button>დეტალურად</button>
+        </div>
+
+    </div>
+
+
     <div id="ragac">
-
-
     </div>
 
 
