@@ -262,9 +262,9 @@
         <p>მიღებული დონაცია</p>
         <p>წარმატებული ოპერაცია</p>
 
-        <p>37</p>
-        <p>3650$</p>
-        <p>4</p>
+        <p><span id="donorsCounter">0</p>
+        <p><span id="donationCounter">$0</p>
+        <p><span id="successCounter">0</p>
 
     </div>
 
@@ -360,6 +360,30 @@
     slider.addEventListener('mousedown', startDragging, false);
     slider.addEventListener('mouseup', stopDragging, false);
     slider.addEventListener('mouseleave', stopDragging, false);
+
+
+    //// counter
+
+    function animateValue(id, start, end, duration) {
+        var range = end - start;
+        var current = start;
+        var increment = end > start ? 1 : -1;
+        var stepTime = Math.abs(Math.floor(duration / range));
+        var obj = document.getElementById(id);
+        var timer = setInterval(function () {
+            current += increment;
+            obj.textContent = current;
+            if (current == end) {
+                clearInterval(timer);
+            }
+        }, stepTime);
+    }
+
+    window.onload = function () {
+        animateValue("donorsCounter", 0, 37, 2000); 
+        animateValue("donationCounter", 1000, 3650, 500); 
+        animateValue("successCounter", 0, 4, 2000);
+    };
 
 </script>
 </html>
