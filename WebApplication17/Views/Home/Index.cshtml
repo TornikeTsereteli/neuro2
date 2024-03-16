@@ -301,6 +301,44 @@
                 padding-right: 1.5rem;
             }
 
+        .news-box {
+            flex: 1 1 30rem;
+            background: var(---second-bg-color);
+            padding: 3rem 2rem 4rem;
+            border-radius: 2rem;
+            text-align: center;
+            border: .2rem solid var(--bg-color);
+            transition: .5s ease;
+        }
+
+        .news-box:hover {
+            border-color: var(--main-color);
+            transform: scale(1.02);
+        }
+
+        .btn {
+            width: 8em;
+            height: 4.2ex;
+            background-color: rgb(117, 246, 236);
+            border-radius: 15px;
+            font-weight: 600;
+            color: black;
+            cursor: pointer;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 0 8px 3px rgb(117, 246, 236);
+            animation: shine 1s infinite;
+            position: absolute;
+            display: flex;
+            margin-left: 70px;
+        }
+
+            .btn:hover {
+                background-color: rgb(150, 254, 231)
+            }
+
+
+
     </style>
 
 </head>
@@ -387,6 +425,46 @@
     <div id="siaxleebi">
 
         <div id="siaxleebisScroll">
+
+            <div class="news-box">
+                <img src="~/imgs/donate2.png" />
+                <h3>სიახლეები</h3>
+                <p>
+                    "Driven by a passion for pixels and an obsession with responsiveness,
+                    I am dedicated to creating websites that not only look great
+                    but also perform seamlessly across devices.
+                </p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="news-box">
+                <img src="~/imgs/donate2.png" />
+                <h3>რუბრიკა</h3>
+                <p>
+                    "Driven by a passion for pixels and an obsession with responsiveness,
+                    I am dedicated to creating websites that not only look great
+                    but also perform seamlessly across devices.
+                </p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="news-box">
+                <img src="~/imgs/donate2.png" />
+                <h3>აქტივობები</h3>
+                <p>
+                    "Driven by a passion for pixels and an obsession with responsiveness,
+                    I am dedicated to creating websites that not only look great
+                    but also perform seamlessly across devices.
+                </p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+
+
+
+
+
+
         </div>
 
     </div>
