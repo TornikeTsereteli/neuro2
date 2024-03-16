@@ -243,6 +243,64 @@
             cursor: default;
         }
 
+
+        /* siaxleebis containeris stilebi */
+
+        .fancy {
+            margin-top: 5rem;
+            line-height: 0.5;
+            text-align: center;
+        }
+
+            .fancy span {
+                display: inline-block;
+                position: relative;
+            }
+
+                .fancy span:before,
+                .fancy span:after {
+                    content: "";
+                    position: absolute;
+                    height: 5px;
+                    border-bottom: 1px solid rgb(0, 0, 0);
+                    top: 0;
+                    width: 20%;
+                }
+
+                .fancy span:before {
+                    right: 100%;
+                    margin-right: 15px;
+                }
+
+                .fancy span:after {
+                    left: 100%;
+                    margin-left: 15px;
+                }
+
+
+
+        #siaxleebisScroll {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            height: 50vh;
+            width: 80vw;
+            background-color: #FEF9E7;
+            margin: auto;
+            margin-top: 4rem;
+            overflow: hidden;
+            touch-action: none;
+            border-radius: 1.6rem;
+            gap: 1.5rem;
+        }
+
+            #siaxleebisScroll:first-child {
+                padding-left: 1.5rem;
+            }
+
+            #siaxleebisScroll:last-child {
+                padding-right: 1.5rem;
+            }
+
     </style>
 
 </head>
@@ -322,6 +380,18 @@
         </div>
 
     </div>
+
+
+    <p class="fancy"><span>ს ი ა ხ ლ ე ე ბ ი</span></p>
+
+    <div id="siaxleebi">
+
+        <div id="siaxleebisScroll">
+        </div>
+
+    </div>
+
+
 
 
     <div id="ragac">
