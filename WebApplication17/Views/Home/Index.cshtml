@@ -9,10 +9,13 @@
 
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian:wdth,wght@62.5..100,100..900&display=swap" rel="stylesheet">
 
 <head>
     <style>
-
+        
 
         body {
             margin: 0;
@@ -20,6 +23,7 @@
             padding: 0;
             margin-right: 2rem;
             overflow-x: hidden;
+            font-family: 'Noto Serif Georgian', serif;
         }
 
         /* baneris stilebi */
@@ -208,6 +212,7 @@
             width: 80%;
             overflow: auto;
             margin-left: 5rem;
+            font-weight:200;
         }
 
 
@@ -282,7 +287,7 @@
         #siaxleebisScroll {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
-            height: 50vh;
+            height: 56vh;
             width: 80vw;
             background-color: #FEF9E7;
             margin: auto;
@@ -317,27 +322,33 @@
         }
 
         .btn {
-            width: 8em;
+            width: 9em;
             height: 4.2ex;
             background-color: rgb(117, 246, 236);
             border-radius: 15px;
-            font-weight: 600;
+            font-weight: 500;
             color: black;
             cursor: pointer;
             justify-content: center;
             align-items: center;
-            box-shadow: 0 0 8px 3px rgb(117, 246, 236);
+            box-shadow: 0 0 8px 3px rgb(150, 254, 231);
             animation: shine 1s infinite;
             position: absolute;
             display: flex;
-            margin-left: 70px;
+            transition: .5s ease;
+            margin-left: 65px;
         }
 
             .btn:hover {
-                background-color: rgb(150, 254, 231)
+                background-color: rgb(214, 247, 237);
+                box-shadow:none;
             }
 
-
+            .news-box img {
+            width: 3rem;
+            height: 3rem;
+            margin-bottom: 10px;
+            }
 
     </style>
 
@@ -427,36 +438,36 @@
         <div id="siaxleebisScroll">
 
             <div class="news-box">
-                <img src="~/imgs/donate2.png" />
+                <img src="~/imgs/megaphone.png" />
                 <h3>სიახლეები</h3>
                 <p>
                     "Driven by a passion for pixels and an obsession with responsiveness,
                     I am dedicated to creating websites that not only look great
                     but also perform seamlessly across devices.
                 </p>
-                <a href="#" class="btn">Read More</a>
+                <a href="#" class="btn">გაიგე მეტი</a>
             </div>
 
             <div class="news-box">
-                <img src="~/imgs/donate2.png" />
+                <img src="~/imgs/checklist.png" />
                 <h3>რუბრიკა</h3>
                 <p>
                     "Driven by a passion for pixels and an obsession with responsiveness,
                     I am dedicated to creating websites that not only look great
                     but also perform seamlessly across devices.
                 </p>
-                <a href="#" class="btn">Read More</a>
+                <a href="#" class="btn">გაიგე მეტი</a>
             </div>
 
             <div class="news-box">
-                <img src="~/imgs/donate2.png" />
+                <img src="~/imgs/groups.png"  />
                 <h3>აქტივობები</h3>
                 <p>
                     "Driven by a passion for pixels and an obsession with responsiveness,
                     I am dedicated to creating websites that not only look great
                     but also perform seamlessly across devices.
                 </p>
-                <a href="#" class="btn">Read More</a>
+                <a href="#" class="btn">გაიგე მეტი</a>
             </div>
 
 
