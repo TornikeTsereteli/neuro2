@@ -282,8 +282,6 @@
                     margin-left: 15px;
                 }
 
-
-
         #siaxleebisScroll {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
@@ -305,8 +303,8 @@
             #siaxleebisScroll:last-child {
                 padding-right: 1.5rem;
             }
-
-        .news-box {
+        
+            .news-box {
             flex: 1 1 30rem;
             background: var(---second-bg-color);
             padding: 3rem 2rem 4rem;
@@ -349,6 +347,95 @@
             height: 3rem;
             margin-bottom: 10px;
             }
+
+            
+            /* about */
+
+        #about {
+            display: grid;
+            grid-template-columns: 70% 30%;
+            margin-top: 10rem;
+            width: 80vw;
+            height: 70vh;
+            background-color: #FEF9E7;
+            margin: auto;
+            margin-top: 10rem;
+            position: relative;
+        }
+
+            #about .img {
+                position: absolute;
+                width: inherit;
+                height: inherit;
+                right: -3rem;
+                top: 2rem;
+                height: 80%;
+                border-radius: 3rem;
+                
+                
+            }
+
+            
+
+        .aboutAside {
+            display: flex;
+            width: 30%;
+            height: 100%;
+            
+            
+
+            
+        }
+
+        
+
+        .aboutText h4 {
+            height: 50%;
+            width: 80%;
+            overflow: auto;
+            margin-right: 5rem;
+            font-weight: 200;
+            left: 2rem;
+            position:absolute;
+            margin-top: 7rem;
+            
+        }
+
+
+
+        .aboutHeader {
+            display: block;
+            font-size: 2rem;
+            padding-top: 2rem;
+            text-align: center;
+            position:absolute;
+            left: 2rem;
+        }
+
+        .aboutText button {
+            position: absolute;
+            bottom: 2rem;
+            left: 2rem;
+            background-color: rgb(214, 247, 237, 0.3);
+            border: none;
+            border-radius: 1rem;
+            width: 10rem;
+            height: 3rem;
+            transition: all 0.5s ease-in;
+            overflow: hidden;
+        }
+
+            .aboutText button:hover {
+                background-color: rgb(214, 247, 237, 1);
+                width: 12rem;
+                height: 3.3rem;
+                padding-right: 2rem;
+            }
+
+        .aboutText:hover {
+            cursor: default;
+        }
+
 
     </style>
 
@@ -470,12 +557,30 @@
                 <a href="#" class="btn">გაიგე მეტი</a>
             </div>
 
+        </div>
+
+    </div>
 
 
 
+    <div id="about">
+        <aside class="aboutAside">
+            <iframe class="img" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14163.589929021351!2d44.78023233286325!3d41.7307029312485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x404472c062a7eb07%3A0x657a47a85aba80b8!2zNCDhg5Xhg5Dhg5zhg5jhg6Eg4YOl4YOj4YOp4YOQLCBUJ2JpbGlzaQ!5e0!3m2!1sen!2sge!4v1710717226642!5m2!1sen!2sge" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </aside>
 
 
+        <div class="aboutText">
+            <p class="aboutHeader">კონტაქტი</p>
 
+            <h4>მისამართი: ვანის ქუჩა 4</h4>
+            <br />
+            <br />
+            <h4>ტელეფონი: ***********</h4>
+            <br />
+            <br />
+            <h4>Facebook</h4>
+
+            <button>დეტალურად</button>
         </div>
 
     </div>
