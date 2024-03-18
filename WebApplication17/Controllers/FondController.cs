@@ -5,6 +5,13 @@ namespace neurobalance.com.Controllers;
 [Route("[controller]")]
 public class FondController: Controller
 {
+
+    [HttpGet("/Fond")]
+    public IActionResult Fond()
+    {
+        return View();
+    }
+    
     [HttpGet("/Fond/Donors")]
     public IActionResult Donors()
     {

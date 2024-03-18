@@ -6,6 +6,11 @@ namespace neurobalance.com.Controllers;
 [Route("[controller]")]
 public class NewsController:Controller
 {
+    [HttpGet("/News")]
+    public IActionResult News()
+    {
+        return View();
+    }
     [HttpGet("/News/Rubric")]
     public IActionResult Rubric()
     {

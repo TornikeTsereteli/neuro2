@@ -5,6 +5,13 @@ namespace neurobalance.com.Controllers;
 [Route("[controller]")]
 public class AboutController:Controller
 {
+
+    [HttpGet("/About")]
+    public IActionResult About()
+    {
+        return View();
+    }
+    
     [HttpGet("/About/Services")]
     public IActionResult Services()
     {
