@@ -6,6 +6,7 @@
     margin: 0;
     padding: 0;
     
+    
 }
 
 main {
@@ -85,12 +86,16 @@ button.accept-policy {
     position: relative;
 }
 
+  
+
 .navbar-nav .nav-link:hover {
     color: #0077cc;
 }
 
+
 .navbar-nav .nav-link {
     font-weight: 900;
+    
 }
 
 .navbar-nav .nav-link {
@@ -105,7 +110,10 @@ button.accept-policy {
     align-items: center;
     box-shadow: 0 0 8px 3px rgb(117, 246, 236);
     animation: shine 1s infinite;
+    
 }
+
+
 
 @keyframes shine {
     0% {
@@ -174,7 +182,7 @@ button.accept-policy {
 }
 
 .dropdown a:hover {
-    color: #0077cc;
+    color: #0077cc ;
 }
 
 .donation-img {
