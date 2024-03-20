@@ -17,6 +17,43 @@
 </head>
 
 <body>
+
+    <div id="registrationPopup" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="closePopup()">&times;</span>
+            <h3>შესვლა</h3>
+            <form action="#" method="post">
+                <label for="email">ელფოსტა</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="password">პაროლი</label>
+                <input type="password" id="password" name="password" required>
+
+                <a href="#" style="font-size: smaller; text-decoration: none; margin-bottom: 10px;">პაროლის აღდგენა</a>
+
+                <input type="submit" value="შესვლა">
+
+                <div class="line"></div>
+
+                <div class="social-login">
+                    <p>ან შედით</p>
+                    
+                    <button>Facebook</button>
+                    <button>Google</button>
+                </div>
+
+                <div class="register-link">
+                    <p>არ გაქვს ანგარიში? <a href="#">დარეგისტრირდი</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div id="overlay"></div>
+
+
+
+
+
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3" style="display:block; width: 100vw;">
             <div class="container-fluid">
@@ -74,7 +111,7 @@
 
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">შესვლა</a>
+                            <a class="nav-link" href="#" onclick="openPopup()">შესვლა</a>
                         </li>
 
                         <li class="navbar-nav">
@@ -94,6 +131,7 @@
             @RenderBody()
         </main>
     </div>
+
 
 
 
@@ -147,7 +185,24 @@
 
         </div>
     </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // დეფოლთი
+            document.getElementById("registrationPopup").style.display = "none";
+        });
 
+        // გახნსა
+        function openPopup() {
+            document.getElementById("registrationPopup").style.display = "block";
+            document.getElementById("overlay").style.display = "block";
+        }
+
+        // დამალვა
+        function closePopup() {
+            document.getElementById("registrationPopup").style.display = "none";
+            document.getElementById("overlay").style.display = "none";
+        }
+    </script>
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
