@@ -151,10 +151,13 @@ button.accept-policy {
     text-align: start;
     opacity: 0;
     animation: dropdownFade 1s ease forwards;
+    z-index:1;
+    
 }
 
 .nav-item:hover .dropdown {
     display: block;
+    
 }
 
 @keyframes dropdownFade {

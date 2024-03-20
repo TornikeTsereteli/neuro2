@@ -18,7 +18,7 @@
         }
 
         #aboutScroll {
-            
+            position:relative;
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             height: 70vh;
@@ -26,7 +26,7 @@
             background-color: #FEF9E7;
             margin: auto;
             margin-top: 4rem;
-            overflow: hidden;
+            
             touch-action: none;
             border-radius: 1.6rem;
             gap: 1.5rem;
@@ -42,6 +42,25 @@
                 padding-right: 1.5rem;
             }
 
+        .circle {
+            position: absolute;
+            top: -25px; 
+            left: calc(50% - 25px); 
+            width: 50px; 
+            height: 50px; 
+            background-color: #FEF9E7; 
+            border-radius: 50%;
+            box-shadow: 0 0 0 4px #FEF9E7; 
+        }
+
+            
+            .circle img {
+                width: 8vh; 
+                height: 8vh; 
+                object-fit: cover;
+                border-radius: 50%; 
+            }
+
     </style>
     
 </head>
@@ -50,9 +69,11 @@
     <div id="about">
         <div id="aboutScroll">
 
-           
+
+            <div class="circle">
                 
-                
+                <img src="~/imgs/about.png" >
+            </div>
 
 
 
