@@ -353,6 +353,8 @@ img {
     top: 10px;
     right: 10px;
     cursor: pointer;
+    transform: scale(2);
+
 }
 
 /* Form styling */
