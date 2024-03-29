@@ -6,7 +6,6 @@
     margin: 0;
     padding: 0;
     
-    
 }
 
 main {
@@ -17,6 +16,8 @@ main {
 header {
     border-radius: 15px;
     box-shadow: 2px inset #fff;
+    width: 100vw;
+    display: flex
 }
 
 :root {
@@ -189,13 +190,12 @@ button.accept-policy {
 }
 
 .donation-img {
+    margin-left: -5rem;
     margin-right: 10px;
     width: 5em;
     height: 4.2ex;
     background-color: rgb(117, 246, 236);
     border-radius: 15px;
-    font-weight: 600;
-    color: black;
     cursor: pointer;
     display: flex;
     justify-content: center;
@@ -211,23 +211,39 @@ button.accept-policy {
 
 /*footer */
 
-.container-ft {
-    position: absolute;
-    width: 99%;
+.container-ft{
+    width: 100vw;
+    height: fit-content;
     bottom: 0;
-    
+    background-color: white;
+    margin-bottom: 0;
+    border-radius: 2rem 2rem 0 0;
+    padding: 2rem 0 5rem 0;
 }
+
+.row {
+    width: inherit;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-left: 3rem;
+}
+
+.xuioznaet{
+    font-size: 1rem;
+    font-weight: 300;
+    list-style-type: circle;
+}
+
 
 .footer-links {
     list-style: none;
     font-style: unset;
     font-weight: 500;
-    font-size: 1.1rem;
+    font-size: 1.25rem;
     text-align: start;
     margin-right: 80px;
-    bottom: 0;
-    position: absolute;
-    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
     .footer-links a {
@@ -240,9 +256,6 @@ button.accept-policy {
         }
 
 .donation-ft {
-    position: absolute;
-    right: 0;
-    bottom: 0;
     margin-bottom: 20px;
     width: 7.5em;
     height: 11ex;
@@ -255,6 +268,7 @@ button.accept-policy {
     justify-content: center;
     box-shadow: 0 0 7px 3px rgb(117, 246, 236);
     animation: shine 1s infinite;
+    transition: all 1s ease;
 }
 
     .donation-ft:hover {
