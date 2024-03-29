@@ -19,9 +19,8 @@
         #contactScroll {
             display: flex;
             justify-content: center;
-            align-items: center;
             position: relative;
-            height: 130vh;
+            height: 70vh;
             background-color: #FEF9E7;
             margin: 5rem 0 5rem 0;
             border-radius: 1.6rem;
@@ -42,35 +41,136 @@
 
 
             .circle img {
-                width: 8vh;
-                height: 8vh;
+                width: 100%;
+                height: 100%;
                 object-fit: cover;
                 border-radius: 50%;
             }
 
 
             .aboutAside{
-                width: 40%;
-                height: 70%;
+                width: 70%;
+                height: 80%;
+                margin-top: 4rem;
             }
             
             .img{
                 border-radius: 3rem;
             }
 
+        .fancy {
+            margin-top: 5rem;
+            line-height: 0.5;
+            text-align: center;
+        }
+
+            .fancy span {
+                display: inline-block;
+                position: relative;
+            }
+
+                .fancy span:before,
+                .fancy span:after {
+                    content: "";
+                    position: absolute;
+                    height: 5px;
+                    border-bottom: 1px solid rgb(0, 0, 0);
+                    top: 0;
+                    width: 20%;
+                }
+
+                .fancy span:before {
+                    right: 100%;
+                    margin-right: 15px;
+                }
+
+                .fancy span:after {
+                    left: 100%;
+                    margin-left: 15px;
+                }
+
+
+                .contactUs{
+                    display:grid;
+                    grid-template-columns: 1fr 1fr;
+                    height: fit-content;
+                    justify-items: center;
+                    margin-bottom: 5rem;
+                    margin-top: 2rem;
+                    padding-bottom: 3rem;
+                }
         
+                .callUs,
+                .emailUs{
+                    display: flex;
+                    flex-direction: column;
+                    width: 90%;
+                    height: 100%;
+                    background-color: #FEF9E7;
+                    border-radius: 2rem;
+                    padding-bottom: 3rem;
+                }
+
+                .callUsPh{
+                    display:flex;
+                    justify-content: center;
+                    padding-top:  1rem;
+                }
+
 
     </style>
 
 </head>
 
 <body>
+    
+
+        <p class="fancy"><span>დაგვიკავშირდით</span></p>
+
+        <div class="contactUs"> 
+
+            <div class="callUs">
+                <div class="callUsPh">
+                <img src="~/imgs/phone-call-icon.png" width="50px" height="50px"/>
+                </div>
+                <h6 style="font-weight: 500;
+                           margin-top: 3rem;
+                           margin-left: 0.5rem;
+                           ">ჩვენი გუნდი მზადაა 24/7-ზე გასცეს პასუხი თქვენს კითხვებს</h6>
+                <h6 style="font-weight: 500;
+                           margin-top:3rem;
+                           margin-left: 0.5rem;">
+                    დაგვიკავშირდით ნომერზე:
+                </h6>
+
+            </div>
+
+            <div class="emailUs">
+                <div class="callUsPh">
+                <img src="~/imgs/envelope-icon.png" width="60px" height="50px" />
+                </div>
+                <h6 style="font-weight: 500;
+                           margin-top: 3rem;
+                           margin-left: 0.5rem;
+                           ">
+                    შეგიძლიათ დაგვიკავშირდეთ ჩვენს ელექტრონულ ფოსტაზე
+                </h6>
+                <h6 style="font-weight: 500;
+                           margin-top: 3rem;
+                           margin-left: 0.5rem;
+                           ">
+                    ჩვენი ელექტრონული მისამართია:
+                </h6>
+            </div>
+        </div>
+
+
     <div id="contact">
 
         <div id="contactScroll">
 
 
-            
+
 
             <div class="circle">
 
@@ -83,10 +183,6 @@
             </aside>
 
         </div>
-
-
-
-
 
     </div>
 
