@@ -16,7 +16,7 @@ main {
 header {
     border-radius: 15px;
     box-shadow: 2px inset #fff;
-    width: 100vw;
+    width: inherit;
     display: flex
 }
 
@@ -212,11 +212,9 @@ button.accept-policy {
 /*footer */
 
 .container-ft{
-    width: 100vw;
+    width: inherit;
     height: fit-content;
-    bottom: 0;
     background-color: white;
-    margin-bottom: 0;
     border-radius: 2rem 2rem 0 0;
     padding: 2rem 0 5rem 0;
 }
@@ -225,7 +223,6 @@ button.accept-policy {
     width: inherit;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    padding-left: 3rem;
 }
 
 .xuioznaet{
