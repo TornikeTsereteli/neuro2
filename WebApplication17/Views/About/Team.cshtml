@@ -18,14 +18,11 @@
 
         #teamScroll {
             position:relative;
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            height: 70vh;
-            width: 80vw;
+            height: 120vh;
             background-color: #FEF9E7;
+            height: fit-content;
             margin: auto;
             margin-top: 4rem;
-            
             touch-action: none;
             border-radius: 1.6rem;
             gap: 1.5rem;
@@ -53,10 +50,21 @@
 
 
             .circle img {
-                width: 8vh;
-                height: 8vh;
+                width: 100%;
+                height: 100%;
                 object-fit: cover;
                 border-radius: 50%;
+            }
+
+            .teamDiv {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 2.5rem;
+                width: 90%;
+                height: vh;
+                margin: auto;
+                transform: translateY(4rem);
+                padding-bottom: 7rem;
             }
 
     </style>
@@ -71,8 +79,16 @@
             <div class="circle">
 
                 <img src="~/imgs/people.png">
-            </div>
 
+            </div>
+            <div class="teamDiv">
+                <div style="background-color: #EBF5FB; border-radius: 1.7rem; display: flex; align-items: center;"> <img src="/imgs/anapapava.jpg" width="80%" ; height="80%" style="margin: auto; display: flex; justify-content: center; background-size:cover;" /> </div>
+                <div> <h3 style="width: 90%; height: 90%; display: flex; justify-content: center; margin-top: 1rem;" > ahdjashdkasjdklajd</h3></div>
+                <div style="background-color: #EBF5FB; border-radius: 1.7rem; display: flex; align-items: center;"> <img src="/imgs/anapapava.jpg" width="80%" ; height="80%" style="margin: auto; display: flex; justify-content: center; background-size:cover;" /> </div>
+                <div> <h3 style="width: 90%; height: 90%; display: flex; justify-content: center; margin-top: 1rem;"> ahdjashdkasjdklajd</h3></div>
+                <div style="background-color: #EBF5FB; border-radius: 1.7rem; display: flex; align-items: center;"> <img src="/imgs/anapapava.jpg" width="80%" ; height="80%" style="margin: auto; display: flex; justify-content: center; background-size:cover;" /> </div>
+                <div> <h3 style="width: 90%; height: 90%; display: flex; justify-content: center; margin-top: 1rem;"> ahdjashdkasjdklajd</h3></div>
+            </div>
         </div>
 
 

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -16,28 +16,62 @@
             font-family: 'Noto Serif Georgian', serif;
         }
 
+        #services {
+            position: relative;
+            margin-top: 4rem;
+        }
+
         #servicesScroll {
             position:relative;
             display: grid;
             grid-template-columns: repeat(3, 1fr);
-            height: 70vh;
-            width: 80vw;
+            height: fit-content;
             background-color: #FEF9E7;
             margin: auto;
-            margin-top: 4rem;
+            padding-top: 3rem;
+            padding-bottom: 3rem;
             touch-action: none;
             border-radius: 1.6rem;
-            gap: 1.5rem;
+            gap: 2rem;
             margin-bottom: 10rem;
+            padding-left: 3.5rem;
         }
 
-            #servicesScroll:first-child {
-                padding-left: 1.5rem;
+        .serviceElement {
+            display: grid;
+            grid-template-rows: 2fr 1fr;
+            border-radius: 3rem;
+            width: 20rem;
+            height: 100%;
+            justify-items: center;
+            align-items: center;
+            text-align: center;
+            font-size: 1.3rem;
+            margin: auto 0;
+            transition: all 0.4s ease-in;
+        }
+
+            
+            .serviceElement img {
+                width: 6rem;
+                height: 6rem;
+                oject-fit: cover;
             }
 
-            #servicesScroll:last-child {
-                padding-right: 1.5rem;
+            .serviceElement:hover {
+                    opacity: 0.3;
+                    cursor: pointer;
+                   
+                }
+
+            .serviceElement p {
+                font-size: 16px;
             }
+
+           
+
+
+
 
         .circle {
             position: absolute;
@@ -48,39 +82,100 @@
             background-color: #FEF9E7;
             border-radius: 50%;
             box-shadow: 0 0 0 4px #FEF9E7;
+            z-index: 1
         }
 
 
             .circle img {
-                width: 8vh;
-                height: 8vh;
+                width: 100%;
+                height: 100%;
                 object-fit: cover;
                 border-radius: 50%;
             }
 
+        
     </style>
 
 </head>
-
+    
 <body>
-    <div id="services">
+    
 
+    <div id="services">
+        
         <div id="servicesScroll">
 
-            <div class="circle">
+        <div class="circle">
 
-                <img src="~/imgs/cloud-service.png">
-            </div>
+            <img src="~/imgs/cloud-service.png">
+        </div>
 
 
+            <div class="serviceElement 1" onclick="on()">
+            <img src="/imgs/donate.png" />
+            <p>დიაგნოსტირება</p>
+        </div>
+            <div class="serviceElement 2" onclick="on()">
+            <img src="/imgs/donate.png" />
+            <p>ქცევითი თერაპია</p>
+        </div>
+            <div class="serviceElement 3" onclick="on()">
+            <img src="/imgs/donate.png" />
+            <p>მეტყველების თერაპია</p>
+        </div>
+            <div class="serviceElement 4" onclick="on()">
+            <img src="/imgs/donate.png" />
+            <p>ადრეული განვითარების პროგრამა</p>
+        </div>
+            <div class="serviceElement 5" onclick="on()">
+            <img src="/imgs/donate.png" />
+            <p>რეაბილიტაცია აბილიტაციის პროგრამა</p>
+        </div>
+            <div class="serviceElement 6" onclick="on()">
+            <img src="/imgs/donate.png" />
+            <p>არტთერაპია</p>
+        </div>
+            <div class="serviceElement 7" onclick="on()">
+            <img src="/imgs/donate.png" />
+            <p>მუს-თერაპია</p>
+        </div>
+            <div class="serviceElement 8" onclick="on()">
+            <img src="/imgs/donate.png" />
+            <p>ოკუპაციური თერაპია</p>
+        </div>
+            <div class="serviceElement 9" onclick="on()">
+            <img src="/imgs/donate.png" />
+            <p>კვებითი თერაპია</p>
+        </div>
+            <div class="serviceElement 10" onclick="on()">
+            <img src="/imgs/donate.png" />
+            <p>სენსორული თერაპია</p>
+        </div>
+            <div class="serviceElement 11" onclick="on()">
+            <img src="/imgs/donate.png" />
+            <p>რეაბილიტაცია აბილიტაციის მობილური ჯგუფები</p>
+        </div>
+            <div class="serviceElement 12" onclick="on()">
+            <img src="/imgs/donate.png" />
+            <p>მშობელთა გაძლიერების საათები</p>
         </div>
 
 
 
 
+        </div>
+            
+
+
+        </div>
 
     </div>
-
+    
+    <script> 
+        function on(){
+            var className = document.getElementsByClassName()
+        }
+    </script>
 </body>
 
 </html>
