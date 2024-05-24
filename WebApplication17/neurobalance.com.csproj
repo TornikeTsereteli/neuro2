@@ -12,10 +12,13 @@
     <PackageReference Include="Microsoft.Data.SqlClient" Version="5.2.0-preview5.24024.3" />
     <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="6.5.0" />
     <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="6.5.0" />
+    <PackageReference Include="Webinex.Chatify.All" Version="1.0.0-rc3" />
+    <PackageReference Include="Webinex.Chatify.AspNetCore" Version="1.0.0-rc3" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Pages\" />
+    <_ContentIncludedByDefault Remove="Pages\Account\A.cshtml" />
+    <_ContentIncludedByDefault Remove="Pages\Account\Login.cshtml" />
   </ItemGroup>
 
 </Project>

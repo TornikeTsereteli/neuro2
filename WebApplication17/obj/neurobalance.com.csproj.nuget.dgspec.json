@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\WERO\\Neuro\\neurobalance.com.csproj": {}
+    "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\neurobalance.com.csproj": {}
   },
   "projects": {
-    "C:\\Users\\WERO\\Neuro\\neurobalance.com.csproj": {
+    "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\neurobalance.com.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\WERO\\Neuro\\neurobalance.com.csproj",
+        "projectUniqueName": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\neurobalance.com.csproj",
         "projectName": "neurobalance.com",
-        "projectPath": "C:\\Users\\WERO\\Neuro\\neurobalance.com.csproj",
-        "packagesPath": "C:\\Users\\WERO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\WERO\\Neuro\\obj\\",
+        "projectPath": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\neurobalance.com.csproj",
+        "packagesPath": "C:\\Users\\kk\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\WERO\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\kk\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -59,6 +57,14 @@
             "Swashbuckle.AspNetCore.SwaggerUI": {
               "target": "Package",
               "version": "[6.5.0, )"
+            },
+            "Webinex.Chatify.All": {
+              "target": "Package",
+              "version": "[1.0.0-rc3, )"
+            },
+            "Webinex.Chatify.AspNetCore": {
+              "target": "Package",
+              "version": "[1.0.0-rc3, )"
             }
           },
           "imports": [
@@ -80,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

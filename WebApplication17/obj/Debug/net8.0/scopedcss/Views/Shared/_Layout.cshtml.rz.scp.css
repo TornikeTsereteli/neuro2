@@ -6,7 +6,6 @@ body[b-moffio1vio] {
     margin: 0;
     padding: 0;
     
-    
 }
 
 main[b-moffio1vio] {
@@ -17,6 +16,8 @@ main[b-moffio1vio] {
 header[b-moffio1vio] {
     border-radius: 15px;
     box-shadow: 2px inset #fff;
+    width: inherit;
+    display: flex
 }
 
 :root[b-moffio1vio] {
@@ -33,7 +34,7 @@ header[b-moffio1vio] {
 a.navbar-brand[b-moffio1vio] {
     white-space: normal;
     text-align: center;
-    word-break: break-all;
+    word-break: break-aLl;
 }
 
 a[b-moffio1vio] {
@@ -134,6 +135,10 @@ button.accept-policy[b-moffio1vio] {
     margin-left: 15px;
 }
 
+.nav-lang[b-moffio1vio]{
+
+}
+
 .dropdown li[b-moffio1vio] {
     display: block;
 }
@@ -189,13 +194,12 @@ button.accept-policy[b-moffio1vio] {
 }
 
 .donation-img[b-moffio1vio] {
+    margin-left: -5rem;
     margin-right: 10px;
     width: 5em;
     height: 4.2ex;
     background-color: rgb(117, 246, 236);
     border-radius: 15px;
-    font-weight: 600;
-    color: black;
     cursor: pointer;
     display: flex;
     justify-content: center;
@@ -211,23 +215,36 @@ button.accept-policy[b-moffio1vio] {
 
 /*footer */
 
-.container-ft[b-moffio1vio] {
-    position: absolute;
-    width: 99%;
-    bottom: 0;
-    
+.container-ft[b-moffio1vio]{
+    width: inherit;
+    height: fit-content;
+    background-color: white;
+    border-radius: 2rem 2rem 0 0;
+    padding: 2rem 0 5rem 0;
 }
+
+.row[b-moffio1vio] {
+    width: inherit;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.xuioznaet[b-moffio1vio]{
+    font-size: 1rem;
+    font-weight: 300;
+    list-style-type: circle;
+}
+
 
 .footer-links[b-moffio1vio] {
     list-style: none;
     font-style: unset;
-    font-weight: bolder;
-    font-size: 1.1rem;
+    font-weight: 500;
+    font-size: 1.25rem;
     text-align: start;
     margin-right: 80px;
-    bottom: 0;
-    position: absolute;
-    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
     .footer-links a[b-moffio1vio] {
@@ -240,9 +257,6 @@ button.accept-policy[b-moffio1vio] {
         }
 
 .donation-ft[b-moffio1vio] {
-    position: absolute;
-    right: 0;
-    bottom: 0;
     margin-bottom: 20px;
     width: 7.5em;
     height: 11ex;
@@ -255,6 +269,7 @@ button.accept-policy[b-moffio1vio] {
     justify-content: center;
     box-shadow: 0 0 7px 3px rgb(117, 246, 236);
     animation: shine-b-moffio1vio 1s infinite;
+    transition: all 1s ease;
 }
 
     .donation-ft:hover[b-moffio1vio] {
@@ -307,4 +322,161 @@ button.accept-policy[b-moffio1vio] {
 
 img[b-moffio1vio] {
     opacity: 0.3 !important;
+}
+
+.popup[b-moffio1vio] {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px; /* სიგანე */
+    height: 500px; /* სიმაღლე */
+    background-color: #fefefe;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    z-index: 9999;
+}
+
+/* Popup content */
+.popup-content[b-moffio1vio] {
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    
+}
+
+/* Close button */
+.close[b-moffio1vio] {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    transform: scale(2);
+
+}
+
+/* Form styling */
+form[b-moffio1vio] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label[b-moffio1vio] {
+    font-weight: 500;
+    margin-bottom: 5px;
+    text-align: left;
+    width: 100%;
+    font-size:small;
+}
+
+input[type="text"][b-moffio1vio],
+input[type="email"][b-moffio1vio],
+input[type="password"][b-moffio1vio] {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    
+}
+
+input[type="submit"][b-moffio1vio] {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+}
+
+
+
+    input[type="submit"]:hover[b-moffio1vio] {
+        background-color: #0056b3;
+    }
+
+.line[b-moffio1vio] {
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+    width: 100%;
+}
+
+.social-login[b-moffio1vio] {
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+    .social-login button[b-moffio1vio] {
+        
+        border-radius: 15px;
+        font-weight: 400;
+        cursor: pointer
+        margin-right: 10px;
+        
+        
+    }
+
+.register-link[b-moffio1vio] {
+    text-align: center;
+}
+
+    .register-link a[b-moffio1vio] {
+        color: #007bff;
+        text-decoration: none;
+    }
+
+.icon-fblogin[b-moffio1vio] {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: white;
+}
+
+    .icon-fblogin span[b-moffio1vio]{
+        color: white;
+        margin-right:10px;
+        margin-left:4px;
+        font-size: large;
+        font-weight: bold;
+    }
+.icon-glogin[b-moffio1vio] {
+    background-color: white;
+    border-color:white;
+    
+    
+}
+
+    .icon-glogin span[b-moffio1vio] {
+        
+        margin-right: 10px;
+        margin-left: 4px;
+        font-size: large;
+        font-weight: bold;
+        
+    }
+
+.chrome-g[b-moffio1vio] {
+    background: linear-gradient(90deg, #4285F4, #34A853, #FBBC05, #EA4335);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+#overlay[b-moffio1vio] {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    z-index: 9998;
 }

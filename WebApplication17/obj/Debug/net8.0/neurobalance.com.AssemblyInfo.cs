@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("neurobalance.com")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7f8b80f8665731deb4035d8be4e12e87f6e69dce")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+92b6ed9d7aa8c1ef1e3d8b739a655b025030c9ff")]
 [assembly: System.Reflection.AssemblyProductAttribute("neurobalance.com")]
 [assembly: System.Reflection.AssemblyTitleAttribute("neurobalance.com")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

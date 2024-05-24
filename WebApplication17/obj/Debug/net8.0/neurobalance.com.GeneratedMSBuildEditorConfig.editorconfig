@@ -9,71 +9,95 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = neurobalance.com
 build_property.RootNamespace = neurobalance.com
-build_property.ProjectDir = C:\Users\WERO\Neuro\
+build_property.ProjectDir = C:\Users\kk\RiderProjects\neuro2\WebApplication17\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\WERO\Neuro
+build_property.MSBuildProjectDirectory = C:\Users\kk\RiderProjects\neuro2\WebApplication17
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/WERO/Neuro/Views/About/Services.cshtml]
+[C:/Users/kk/RiderProjects/neuro2/WebApplication17/Views/About/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcQWJvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kk/RiderProjects/neuro2/WebApplication17/Views/About/Services.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcU2VydmljZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/WERO/Neuro/Views/About/Team.cshtml]
+[C:/Users/kk/RiderProjects/neuro2/WebApplication17/Views/About/Team.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcVGVhbS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/WERO/Neuro/Views/Contact/Contacts.cshtml]
+[C:/Users/kk/RiderProjects/neuro2/WebApplication17/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kk/RiderProjects/neuro2/WebApplication17/Views/Contact/Contacts.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxDb250YWN0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/WERO/Neuro/Views/Fond/Donors.cshtml]
+[C:/Users/kk/RiderProjects/neuro2/WebApplication17/Views/Fond/Donors.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9uZFxEb25vcnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/WERO/Neuro/Views/Fond/Philanthropy.cshtml]
+[C:/Users/kk/RiderProjects/neuro2/WebApplication17/Views/Fond/Fond.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9uZFxGb25kLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kk/RiderProjects/neuro2/WebApplication17/Views/Fond/Philanthropy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9uZFxQaGlsYW50aHJvcHkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/WERO/Neuro/Views/Fond/Transparency.cshtml]
+[C:/Users/kk/RiderProjects/neuro2/WebApplication17/Views/Fond/Transparency.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9uZFxUcmFuc3BhcmVuY3kuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/WERO/Neuro/Views/Home/Index.cshtml]
+[C:/Users/kk/RiderProjects/neuro2/WebApplication17/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/WERO/Neuro/Views/Home/Privacy.cshtml]
+[C:/Users/kk/RiderProjects/neuro2/WebApplication17/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/WERO/Neuro/Views/News/Activities.cshtml]
+[C:/Users/kk/RiderProjects/neuro2/WebApplication17/Views/News/Activities.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c1xBY3Rpdml0aWVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/WERO/Neuro/Views/News/Rubric.cshtml]
+[C:/Users/kk/RiderProjects/neuro2/WebApplication17/Views/News/News.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c1xOZXdzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kk/RiderProjects/neuro2/WebApplication17/Views/News/Rubric.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c1xSdWJyaWMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/WERO/Neuro/Views/Shared/Error.cshtml]
+[C:/Users/kk/RiderProjects/neuro2/WebApplication17/Views/Profile/ProfilePage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZVxQcm9maWxlUGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kk/RiderProjects/neuro2/WebApplication17/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/WERO/Neuro/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/kk/RiderProjects/neuro2/WebApplication17/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/WERO/Neuro/Views/_ViewImports.cshtml]
+[C:/Users/kk/RiderProjects/neuro2/WebApplication17/Views/User/Hello.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxIZWxsby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kk/RiderProjects/neuro2/WebApplication17/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/WERO/Neuro/Views/_ViewStart.cshtml]
+[C:/Users/kk/RiderProjects/neuro2/WebApplication17/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/WERO/Neuro/Views/Shared/_Layout.cshtml]
+[C:/Users/kk/RiderProjects/neuro2/WebApplication17/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-moffio1vio

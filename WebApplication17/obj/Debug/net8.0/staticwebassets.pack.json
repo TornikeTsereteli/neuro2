@@ -1,284 +1,388 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\WERO\\RiderProjects\\WebApplication17\\WebApplication17\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebApplication17.bundle.scp.css",
-      "PackagePath": "staticwebassets\\WebApplication17.bundle.scp.css"
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\neurobalance.com.bundle.scp.css",
+      "PackagePath": "staticwebassets\\neurobalance.com.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\WERO\\RiderProjects\\WebApplication17\\WebApplication17\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\chat.html",
+      "PackagePath": "staticwebassets\\chat.html"
+    },
+    {
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\WERO\\RiderProjects\\WebApplication17\\WebApplication17\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\css\\test.css",
+      "PackagePath": "staticwebassets\\css\\test.css"
+    },
+    {
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\WERO\\RiderProjects\\WebApplication17\\WebApplication17\\wwwroot\\imgs\\LOGO1.png",
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\imgs\\LOGO1.png",
       "PackagePath": "staticwebassets\\imgs\\LOGO1.png"
     },
     {
-      "Id": "C:\\Users\\WERO\\RiderProjects\\WebApplication17\\WebApplication17\\wwwroot\\imgs\\donate.png",
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\imgs\\LOGOTR.png",
+      "PackagePath": "staticwebassets\\imgs\\LOGOTR.png"
+    },
+    {
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\imgs\\about.png",
+      "PackagePath": "staticwebassets\\imgs\\about.png"
+    },
+    {
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\imgs\\business-ethics.png",
+      "PackagePath": "staticwebassets\\imgs\\business-ethics.png"
+    },
+    {
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\imgs\\charity.png",
+      "PackagePath": "staticwebassets\\imgs\\charity.png"
+    },
+    {
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\imgs\\checklist.png",
+      "PackagePath": "staticwebassets\\imgs\\checklist.png"
+    },
+    {
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\imgs\\clo.png",
+      "PackagePath": "staticwebassets\\imgs\\clo.png"
+    },
+    {
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\imgs\\cloud-service.png",
+      "PackagePath": "staticwebassets\\imgs\\cloud-service.png"
+    },
+    {
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\imgs\\communicate.png",
+      "PackagePath": "staticwebassets\\imgs\\communicate.png"
+    },
+    {
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\imgs\\contact-us.png",
+      "PackagePath": "staticwebassets\\imgs\\contact-us.png"
+    },
+    {
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\imgs\\don.png",
+      "PackagePath": "staticwebassets\\imgs\\don.png"
+    },
+    {
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\imgs\\donate.png",
       "PackagePath": "staticwebassets\\imgs\\donate.png"
     },
     {
-      "Id": "C:\\Users\\WERO\\RiderProjects\\WebApplication17\\WebApplication17\\wwwroot\\imgs\\donate2.png",
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\imgs\\donate2.png",
       "PackagePath": "staticwebassets\\imgs\\donate2.png"
     },
     {
-      "Id": "C:\\Users\\WERO\\RiderProjects\\WebApplication17\\WebApplication17\\wwwroot\\imgs\\kids-med.jpg",
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\imgs\\donate3.png",
+      "PackagePath": "staticwebassets\\imgs\\donate3.png"
+    },
+    {
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\imgs\\egg.png",
+      "PackagePath": "staticwebassets\\imgs\\egg.png"
+    },
+    {
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\imgs\\envelope-icon.png",
+      "PackagePath": "staticwebassets\\imgs\\envelope-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\imgs\\fb.png",
+      "PackagePath": "staticwebassets\\imgs\\fb.png"
+    },
+    {
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\imgs\\google.png",
+      "PackagePath": "staticwebassets\\imgs\\google.png"
+    },
+    {
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\imgs\\groups.png",
+      "PackagePath": "staticwebassets\\imgs\\groups.png"
+    },
+    {
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\imgs\\kids-med.jpg",
       "PackagePath": "staticwebassets\\imgs\\kids-med.jpg"
     },
     {
-      "Id": "C:\\Users\\WERO\\RiderProjects\\WebApplication17\\WebApplication17\\wwwroot\\imgs\\kids.jpg",
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\imgs\\kids.jpg",
       "PackagePath": "staticwebassets\\imgs\\kids.jpg"
     },
     {
-      "Id": "C:\\Users\\WERO\\RiderProjects\\WebApplication17\\WebApplication17\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\imgs\\love.png",
+      "PackagePath": "staticwebassets\\imgs\\love.png"
+    },
+    {
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\imgs\\map.png",
+      "PackagePath": "staticwebassets\\imgs\\map.png"
+    },
+    {
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\imgs\\megaphone.png",
+      "PackagePath": "staticwebassets\\imgs\\megaphone.png"
+    },
+    {
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\imgs\\people.png",
+      "PackagePath": "staticwebassets\\imgs\\people.png"
+    },
+    {
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\imgs\\phone-call-icon.png",
+      "PackagePath": "staticwebassets\\imgs\\phone-call-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\imgs\\social-marketing.png",
+      "PackagePath": "staticwebassets\\imgs\\social-marketing.png"
+    },
+    {
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\js\\functions.js",
+      "PackagePath": "staticwebassets\\js\\functions.js"
+    },
+    {
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\js\\helper.js",
+      "PackagePath": "staticwebassets\\js\\helper.js"
+    },
+    {
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\WERO\\RiderProjects\\WebApplication17\\WebApplication17\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\WERO\\RiderProjects\\WebApplication17\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\WERO\\RiderProjects\\WebApplication17\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\WERO\\RiderProjects\\WebApplication17\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\WERO\\RiderProjects\\WebApplication17\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\WERO\\RiderProjects\\WebApplication17\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\WERO\\RiderProjects\\WebApplication17\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\WERO\\RiderProjects\\WebApplication17\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\WERO\\RiderProjects\\WebApplication17\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\WERO\\RiderProjects\\WebApplication17\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\WERO\\RiderProjects\\WebApplication17\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\WERO\\RiderProjects\\WebApplication17\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\WERO\\RiderProjects\\WebApplication17\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\WERO\\RiderProjects\\WebApplication17\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\WERO\\RiderProjects\\WebApplication17\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\WERO\\RiderProjects\\WebApplication17\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\WERO\\RiderProjects\\WebApplication17\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\WERO\\RiderProjects\\WebApplication17\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\WERO\\RiderProjects\\WebApplication17\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\WERO\\RiderProjects\\WebApplication17\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\WERO\\RiderProjects\\WebApplication17\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\WERO\\RiderProjects\\WebApplication17\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\WERO\\RiderProjects\\WebApplication17\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\WERO\\RiderProjects\\WebApplication17\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\WERO\\RiderProjects\\WebApplication17\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\WERO\\RiderProjects\\WebApplication17\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\WERO\\RiderProjects\\WebApplication17\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\WERO\\RiderProjects\\WebApplication17\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\WERO\\RiderProjects\\WebApplication17\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\WERO\\RiderProjects\\WebApplication17\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\WERO\\RiderProjects\\WebApplication17\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\WERO\\RiderProjects\\WebApplication17\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\WERO\\RiderProjects\\WebApplication17\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\WERO\\RiderProjects\\WebApplication17\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\WERO\\RiderProjects\\WebApplication17\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\WERO\\RiderProjects\\WebApplication17\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\WERO\\RiderProjects\\WebApplication17\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\WERO\\RiderProjects\\WebApplication17\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\WERO\\RiderProjects\\WebApplication17\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\WERO\\RiderProjects\\WebApplication17\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\WERO\\RiderProjects\\WebApplication17\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\WERO\\RiderProjects\\WebApplication17\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\WERO\\RiderProjects\\WebApplication17\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\WERO\\RiderProjects\\WebApplication17\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\WERO\\RiderProjects\\WebApplication17\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\WERO\\RiderProjects\\WebApplication17\\WebApplication17\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\WERO\\RiderProjects\\WebApplication17\\WebApplication17\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\WERO\\RiderProjects\\WebApplication17\\WebApplication17\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\WERO\\RiderProjects\\WebApplication17\\WebApplication17\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\WERO\\RiderProjects\\WebApplication17\\WebApplication17\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\WERO\\RiderProjects\\WebApplication17\\WebApplication17\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\WERO\\RiderProjects\\WebApplication17\\WebApplication17\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\WERO\\RiderProjects\\WebApplication17\\WebApplication17\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\WERO\\RiderProjects\\WebApplication17\\WebApplication17\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\WERO\\RiderProjects\\WebApplication17\\WebApplication17\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\WERO\\RiderProjects\\WebApplication17\\WebApplication17\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\WERO\\RiderProjects\\WebApplication17\\WebApplication17\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\kk\\RiderProjects\\neuro2\\WebApplication17\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebApplication17.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.neurobalance.com.props",
+      "PackagePath": "build\\neurobalance.com.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.neurobalance.com.props",
+      "PackagePath": "buildMultiTargeting\\neurobalance.com.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.neurobalance.com.props",
+      "PackagePath": "buildTransitive\\neurobalance.com.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.neurobalance.com.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
-    },
-    {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.WebApplication17.props",
-      "PackagePath": "build\\WebApplication17.props"
-    },
-    {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.WebApplication17.props",
-      "PackagePath": "buildMultiTargeting\\WebApplication17.props"
-    },
-    {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.WebApplication17.props",
-      "PackagePath": "buildTransitive\\WebApplication17.props"
     }
   ],
   "ElementsToRemove": []
