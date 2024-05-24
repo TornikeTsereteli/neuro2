@@ -27,6 +27,7 @@ builder.Services.AddSingleton<LoginViewModel>();
 
 // Add services to the container.
 builder.Services.AddControllers();
+
 builder.Services.AddControllersWithViews();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
