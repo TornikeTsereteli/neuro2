@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -16,29 +16,16 @@
             font-family: 'Noto Serif Georgian', serif;
         }
 
-        #fondScroll {
-            position:relative;
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            height: 70vh;
-            width: 80vw;
+        #fond {
+            height: fit-content;
+            padding-bottom: 5rem;
             background-color: #FEF9E7;
-            margin: auto;
             margin-top: 4rem;
-            
-            touch-action: none;
             border-radius: 1.6rem;
-            gap: 1.5rem;
             margin-bottom: 10rem;
+            position: relative;
         }
 
-            #fondScroll:first-child {
-                padding-left: 1.5rem;
-            }
-
-            #fondScroll:last-child {
-                padding-right: 1.5rem;
-            }
 
         .circle {
             position: absolute;
@@ -53,11 +40,17 @@
 
 
             .circle img {
-                width: 8vh;
-                height: 8vh;
+                width: 100%;
+                height: 100%;
                 object-fit: cover;
                 border-radius: 50%;
             }
+
+        h5 {
+            width: 50%;
+            padding-top: 2rem;
+            padding-left: 3rem;
+        }
 
 
     </style>
@@ -67,14 +60,22 @@
 <body>
     <div id="fond">
 
-        <div id="fondScroll">
-
             <div class="circle">
 
                 <img src="~/imgs/don.png" />
             </div>
 
-        </div>
+        <h2 style="font-weight: 700;padding-top: 3rem;
+            padding-left: 3rem;">
+            ფონდი
+        </h2>
+
+            <h5>
+                ნეირობალანსირების ცენტრის დამფუძნებელთა გადაწყვეტილებით შეიქმნა ფონდი "ტატა რევიშვილი", რომელიც საშუალებას მისცემს სოციალურად დდაუცველ და შეჭირვებულ ოჯახებს თანადაფინანსებით მიიღონ ნეირობალასირების ცენტრის მომსახურება.<br /><br />
+                ფონდის სახელი მიეძღვნა თიკო ჩხეიძისა და ნუკრი რევიშვილის ქალიშვილს - ტატა რევიშვილს. <br /><br />
+                ფონდის ბალანსზე უამრავი ბავშვი გადის მომსახურებას, რაც გვახარებს და გვიჩენს კიდევ უფრო მეტ მოტივაციას, ვაცოცხლოთ და გავზარდოთ ფონდი, რომელზეც დგას ჩვენი მომავალი თაობის მენტალური, თუ ფიზიკური ჯანმრთელობა.
+
+            </h5>
 
 
 

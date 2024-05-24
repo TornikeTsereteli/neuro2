@@ -8,6 +8,7 @@
     
 }
 
+
 main {
     flex: 1;
     min-height: 100%;
@@ -83,7 +84,7 @@ button.accept-policy {
 
 
 .nav-item {
-    margin-right: 40px;
+    width: fit-content;
     position: relative;
 }
 
@@ -100,7 +101,6 @@ button.accept-policy {
 }
 
 .navbar-nav .nav-link {
-    width: 5em;
     height: 4.2ex;
     background-color: rgb(117, 246, 236);
     border-radius: 15px;
@@ -114,7 +114,31 @@ button.accept-policy {
     
 }
 
+.navbar-nav {
+    gap: 2rem;
+}
 
+.shesvla {
+    height: 4.2ex;
+    background-color: rgb(117, 246, 236);
+    border-radius: 15px;
+    font-weight: 500;
+    color: rgb(53, 53, 53);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 8px 3px rgb(117, 246, 236);
+    animation: shine 1s infinite;
+    margin-right: 2rem;
+}
+
+.shesvlaCont {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+    align-items: center;
+    margin-top: 1rem;
+}
 
 @keyframes shine {
     0% {
@@ -194,7 +218,6 @@ button.accept-policy {
 }
 
 .donation-img {
-    margin-left: -5rem;
     margin-right: 10px;
     width: 5em;
     height: 4.2ex;
@@ -224,7 +247,7 @@ button.accept-policy {
 }
 
 .row {
-    width: inherit;
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
@@ -278,11 +301,15 @@ button.accept-policy {
 
 /*სერვისები */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
    
-    .navbar-nav .nav-link {
-        padding: 5px;
+    .navbar-nav {
+        width: 500px;
         font-size: 0.8rem;
+    }
+
+    .navbar-brand span {
+        display: none;
     }
 
     .navbar-brand img {
@@ -302,22 +329,9 @@ button.accept-policy {
         margin-right: 20px;
     }
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 820px) {
    
-    .navbar-nav .nav-link {
-        font-size: 0.7rem;
-    }
-
     
-    .navbar-brand img {
-        height: 40px;
-        width: auto;
-    }
-
-    
-    .footer-links {
-        margin-right: 10px;
-    }
 }
 
 img {
