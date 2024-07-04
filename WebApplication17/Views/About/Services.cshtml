@@ -22,34 +22,37 @@
         }
 
         #servicesScroll {
-            position:relative;
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
+            grid-template-columns: repeat(6, 45%);
             height: fit-content;
             background-color: #FEF9E7;
             margin: auto;
             padding-top: 3rem;
             padding-bottom: 3rem;
             touch-action: none;
-            border-radius: 1.6rem;
-            gap: 2rem;
             margin-bottom: 10rem;
             padding-left: 3.5rem;
+            gap: 4rem;
+            overflow: hidden;
+            touch-action: none;
         }
 
         .serviceElement {
-            display: grid;
-            grid-template-rows: 2fr 1fr;
-            border-radius: 3rem;
-            width: 20rem;
-            height: 100%;
-            justify-items: center;
-            align-items: center;
-            text-align: center;
-            font-size: 1.3rem;
-            margin: auto 0;
-            transition: all 0.4s ease-in;
+            background-color: rgb(214, 247, 237, 0.5);
+            display: inline-block;
+            width: 100%;
+            height: 20rem; 
+            padding: 0 0 0 2rem;
+            border-radius: 2rem;
         }
+
+        aside {
+            float: left;
+            width: fit-content;
+            margin-right: 2rem;
+            margin-bottom: 2rem;
+        }
+        
 
             
             .serviceElement img {
@@ -58,22 +61,24 @@
                 oject-fit: cover;
             }
 
-            .serviceElement:hover {
-                    opacity: 0.3;
-                    cursor: pointer;
-                   
-                }
+           
 
             .serviceElement p {
                 font-size: 16px;
+                
+               
             }
 
-           
+            .serviceElement h3 {
+                margin-bottom: 2rem;
+            }
 
 
+        #servicesScroll:last-child {
+            margin-right: 4rem;
+        }
 
-
-        .circle {
+            .circle {
             position: absolute;
             top: -25px;
             left: calc(50% - 25px);
@@ -82,7 +87,8 @@
             background-color: #FEF9E7;
             border-radius: 50%;
             box-shadow: 0 0 0 4px #FEF9E7;
-            z-index: 1
+            z-index: 1;
+            overflow-y: visible;
         }
 
 
@@ -91,6 +97,7 @@
                 height: 100%;
                 object-fit: cover;
                 border-radius: 50%;
+                
             }
 
         
@@ -102,66 +109,137 @@
     
 
     <div id="services">
-        
-        <div id="servicesScroll">
 
         <div class="circle">
 
             <img src="~/imgs/cloud-service.png">
         </div>
+        
+        <div id="servicesScroll">
+
+        
 
 
-            <div class="serviceElement 1" onclick="on()">
-            <img src="/imgs/donate.png" />
-            <p>დიაგნოსტირება</p>
-        </div>
-            <div class="serviceElement 2" onclick="on()">
-            <img src="/imgs/donate.png" />
-            <p>ქცევითი თერაპია</p>
-        </div>
-            <div class="serviceElement 3" onclick="on()">
-            <img src="/imgs/donate.png" />
-            <p>მეტყველების თერაპია</p>
-        </div>
-            <div class="serviceElement 4" onclick="on()">
-            <img src="/imgs/donate.png" />
-            <p>ადრეული განვითარების პროგრამა</p>
-        </div>
-            <div class="serviceElement 5" onclick="on()">
-            <img src="/imgs/donate.png" />
-            <p>რეაბილიტაცია აბილიტაციის პროგრამა</p>
-        </div>
-            <div class="serviceElement 6" onclick="on()">
-            <img src="/imgs/donate.png" />
-            <p>არტთერაპია</p>
-        </div>
-            <div class="serviceElement 7" onclick="on()">
-            <img src="/imgs/donate.png" />
-            <p>მუს-თერაპია</p>
-        </div>
-            <div class="serviceElement 8" onclick="on()">
-            <img src="/imgs/donate.png" />
-            <p>ოკუპაციური თერაპია</p>
-        </div>
-            <div class="serviceElement 9" onclick="on()">
-            <img src="/imgs/donate.png" />
-            <p>კვებითი თერაპია</p>
-        </div>
-            <div class="serviceElement 10" onclick="on()">
-            <img src="/imgs/donate.png" />
-            <p>სენსორული თერაპია</p>
-        </div>
-            <div class="serviceElement 11" onclick="on()">
-            <img src="/imgs/donate.png" />
-            <p>რეაბილიტაცია აბილიტაციის მობილური ჯგუფები</p>
-        </div>
-            <div class="serviceElement 12" onclick="on()">
-            <img src="/imgs/donate.png" />
-            <p>მშობელთა გაძლიერების საათები</p>
-        </div>
+         <div class="serviceElement">
+                <h3>დიაგნოსტირება</h3>
+             <aside><img src="/imgs/donate.png" /></aside>
+                <p>
+                    რა ასაკში უნდა შეფასდეს ბავშვი ნევროლოგის მიერ?
+                    ჩვეულებრივ, რუტინულად და გეგმიურად ბავშვთა ნევროლოგის მიერ ბავშვის გასინჯვა
+                    და შეფასება საჭირო არ არის. ბავშვთა ნევროლოგს უნდა მიმართოთ, როდესაც საეჭვოა
+                    სხვადასხვა ნევროლოგიური დარღვევისა თუ დაავადების არსებობა.
+                </p>
+            </div>
+            <div class="serviceElement">
+                
+                <h3>ქცევითი თერაპია</h3>
+                <aside> 
+                    <img src="/imgs/donate.png" />
+                </aside>
+                <p>
+                    ქცევის გამოყენებითი ანალიზი, არის დასწავლის თეორიაზე დაფუძნებული მიდგომა,
+                    რომლის დროსაც ხდება, როგორც კოგნიტური ,ასევე ბავშვის სრულფასოვანი
+                    ცხოვრებისთვის საჭირო უნარების ჩამოყალიბება.
+                    როდის უნდა მივმართოთ სპეციალისტს?
+                    ადრეულ ასაკში დაწყებულ თერაპიებს მივყავართ ძალიან კარგ შედეგამდე, ამიტომ
+                    აუცილებელია მშობელი ყურადღებით დააკვირდეს ბავშვს და ქვემოთ ჩამოთვლილი
+                    
+                </p>
+            </div>
+            <div class="serviceElement">
+                <h3>მეტყველების თერაპია</h3>
+                <aside><img src="/imgs/donate.png" /></aside>
+                <p>
+                    რა ასაკში უნდა შეფასდეს ბავშვი ნევროლოგის მიერ?
+                    ჩვეულებრივ, რუტინულად და გეგმიურად ბავშვთა ნევროლოგის მიერ ბავშვის გასინჯვა
+                    და შეფასება საჭირო არ არის. ბავშვთა ნევროლოგს უნდა მიმართოთ, როდესაც საეჭვოა
+                    სხვადასხვა ნევროლოგიური დარღვევისა თუ დაავადების არსებობა.
+                </p>
+            </div>
+            <div class="serviceElement">
+                <h3>ადრეული განვითარების პროგრამა</h3>
+                <aside><img src="/imgs/donate.png" /></aside>
+                <p>
+                    რა ასაკში უნდა შეფასდეს ბავშვი ნევროლოგის მიერ?
+                    ჩვეულებრივ, რუტინულად და გეგმიურად ბავშვთა ნევროლოგის მიერ ბავშვის გასინჯვა
+                    და შეფასება საჭირო არ არის. ბავშვთა ნევროლოგს უნდა მიმართოთ, როდესაც საეჭვოა
+                    სხვადასხვა ნევროლოგიური დარღვევისა თუ დაავადების არსებობა.
+                </p>
+            </div>
+            <div class="serviceElement">
+                <h3>რეაბილიტაცია აბილიტაციის პროგრამა</h3>
+                <aside><img src="/imgs/donate.png" /></aside>
+                <p>
+                    რა ასაკში უნდა შეფასდეს ბავშვი ნევროლოგის მიერ?
+                    ჩვეულებრივ, რუტინულად და გეგმიურად ბავშვთა ნევროლოგის მიერ ბავშვის გასინჯვა
+                    და შეფასება საჭირო არ არის. ბავშვთა ნევროლოგს უნდა მიმართოთ, როდესაც საეჭვოა
+                    სხვადასხვა ნევროლოგიური დარღვევისა თუ დაავადების არსებობა.
+                </p>
+            </div>
+            <div class="serviceElement">
+                <h3>არტ თერაპია</h3>
+                <aside><img src="/imgs/donate.png" /></aside>
+                <p>
+                    რა ასაკში უნდა შეფასდეს ბავშვი ნევროლოგის მიერ?
+                    ჩვეულებრივ, რუტინულად და გეგმიურად ბავშვთა ნევროლოგის მიერ ბავშვის გასინჯვა
+                    და შეფასება საჭირო არ არის. ბავშვთა ნევროლოგს უნდა მიმართოთ, როდესაც საეჭვოა
+                    სხვადასხვა ნევროლოგიური დარღვევისა თუ დაავადების არსებობა.
+                </p>
+            </div>
+            <div class="serviceElement">
+                <h3>მუსიკალური თერაპია</h3>
+                <aside><img src="/imgs/donate.png" /></aside>
+                <p>
+                    რა ასაკში უნდა შეფასდეს ბავშვი ნევროლოგის მიერ?
+                    ჩვეულებრივ, რუტინულად და გეგმიურად ბავშვთა ნევროლოგის მიერ ბავშვის გასინჯვა
+                    და შეფასება საჭირო არ არის. ბავშვთა ნევროლოგს უნდა მიმართოთ, როდესაც საეჭვოა
+                    სხვადასხვა ნევროლოგიური დარღვევისა თუ დაავადების არსებობა.
+                </p>
+            </div>
+            <div class="serviceElement">
+                <h3>ოკუპაციური თერაპია</h3>
+                <aside><img src="/imgs/donate.png" /></aside>
+                <p>
+                    რა ასაკში უნდა შეფასდეს ბავშვი ნევროლოგის მიერ?
+                    ჩვეულებრივ, რუტინულად და გეგმიურად ბავშვთა ნევროლოგის მიერ ბავშვის გასინჯვა
+                    და შეფასება საჭირო არ არის. ბავშვთა ნევროლოგს უნდა მიმართოთ, როდესაც საეჭვოა
+                    სხვადასხვა ნევროლოგიური დარღვევისა თუ დაავადების არსებობა.
+                </p>
+            </div>
+            <div class="serviceElement">
+                <h3>კვებითი თერაპია</h3>
+                <aside><img src="/imgs/donate.png" /></aside>
+                <p>
+                    რა ასაკში უნდა შეფასდეს ბავშვი ნევროლოგის მიერ?
+                    ჩვეულებრივ, რუტინულად და გეგმიურად ბავშვთა ნევროლოგის მიერ ბავშვის გასინჯვა
+                    და შეფასება საჭირო არ არის. ბავშვთა ნევროლოგს უნდა მიმართოთ, როდესაც საეჭვოა
+                    სხვადასხვა ნევროლოგიური დარღვევისა თუ დაავადების არსებობა.
+                </p>
+            </div>
+            <div class="serviceElement">
+                <h3>სენსორული თერაპია</h3>
+                <aside><img src="/imgs/donate.png" /></aside>
+                <p>
+                    რა ასაკში უნდა შეფასდეს ბავშვი ნევროლოგის მიერ?
+                    ჩვეულებრივ, რუტინულად და გეგმიურად ბავშვთა ნევროლოგის მიერ ბავშვის გასინჯვა
+                    და შეფასება საჭირო არ არის. ბავშვთა ნევროლოგს უნდა მიმართოთ, როდესაც საეჭვოა
+                    სხვადასხვა ნევროლოგიური დარღვევისა თუ დაავადების არსებობა.
+                </p>
+            </div>
+            <div class="serviceElement">
+                <h3>მშობელთა გაძლიერების საათები</h3>
+                <aside><img src="/imgs/donate.png" /></aside>
+                <p>
+                    რა ასაკში უნდა შეფასდეს ბავშვი ნევროლოგის მიერ?
+                    ჩვეულებრივ, რუტინულად და გეგმიურად ბავშვთა ნევროლოგის მიერ ბავშვის გასინჯვა
+                    და შეფასება საჭირო არ არის. ბავშვთა ნევროლოგს უნდა მიმართოთ, როდესაც საეჭვოა
+                    სხვადასხვა ნევროლოგიური დარღვევისა თუ დაავადების არსებობა.
+                </p>
+            </div>
+            
 
 
-
+            
 
         </div>
             
